@@ -1,0 +1,185 @@
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+
+Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON.		
+		curl -u Pavel-Pristupa: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 https://api.github.com/user/repos -d '{"name":"JSON"}'				
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+		git clone https://github.com/Pavel-Pristupa/JSON
+ 6. Внутри локального JSON создать файл “new.json”.
+		cd JSON
+		touch new.json
+ 7. Добавить файл под гит.
+		git add new.json
+ 8. Закоммитить файл.
+		git commit -m "Adding new.json"
+ 9. Отправить файл на внешний GitHub репозиторий.
+		git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+		vim new.json
+		>>i
+			{
+				"name":"Pavel",
+				"age":32,
+				"pets":1,
+				"salary":1000
+			}
+		>>Esc
+		>>:wq
+ 11. Отправить изменения на внешний репозиторий.
+		git commit -am "new.json changes"
+		git push
+ 12. Создать файл preferences.json
+		touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+		vim preferences.json
+		>>i
+			{
+				"movie":"Green mile",
+				"sit-com":"Black mirror",
+				"food":"Draniki",
+				"season":"Summer",
+				"country":"Australia"
+			}
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+		touch sklls.json
+		vim sklls.json
+		>>i
+			{
+				"hard_skills":{
+								"API":"Postman",
+								"sniffers":["Charles", "Fiddler"],
+								"mobile": ["AS", "Xcode"]
+							},
+				"soft_skills":["Communication", "Problem-solving", "Working under stress"]
+			}
+		>>Esc
+		>>:wq
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+		git add .
+		git commit -m "adding 2 files"
+		git push
+ 16. На веб интерфейсе создать файл bug_report.json.
+		>> https://github.com/Pavel-Pristupa/JSON
+		>> Add file >> Create new file
+		>> bug_report.json		
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+		>> Commit new file
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+		>> https://github.com/Pavel-Pristupa/JSON/blob/main/bug_report.json
+		>> Edit this file # Значок карандаша справа
+		{
+			 "id":1,
+			"project":"Homework",
+			"issue_type":"bug",
+			"summary":"User doesn't know what to enter into the summary of the bug report",
+			"priority":"high",
+			"description":"The user doing this particular homework doesn't have and idead what to enter into the bugreport according to GitHub Home_work in point 18",
+			"STR":"No steprs provided, contents clear from 'description'",
+			"AR":"321",
+			"ER":"123",
+			"environment":"Windows 10 Pro v ..., Google Chrome v ..."
+			"reporter":"Pavel Pristupa",
+			"assignee":"to be assigned"
+		}
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+		>> Commit changes
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+		git fetch
+		git pull
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+		curl -u Pavel-Pristupa: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 https://api.github.com/user/repos -d '{"name":"XML"}'
+ 22. Клонировать репозиторий XML на локальный компьютер.
+		git clone https://github.com/Pavel-Pristupa/XML
+ 23. Внутри локального XML создать файл “new.xml”.
+		cd XML
+		touch new.xml
+ 24. Добавить файл под гит.
+		git add new.xml
+ 25. Закоммитить файл.
+		git commit -m "Adding new.xml"
+26. Отправить файл на внешний GitHub репозиторий.
+		git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+		vim new.xml
+		>>i
+			<?xml version="1.0" encoding="utf-8"?>
+			<about>
+				<name>Pavel</name>
+				<age>32</age>
+				<pet>1</pet>
+				<salary>1000</salary>
+			</about>
+		>>Esc
+		>>:wq
+ 28. Отправить изменения на внешний репозиторий.
+		git commit -am "new.xml changes"
+		git push
+ 29. Создать файл preferences.xml
+		touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+		vim preferences.xml
+		>>i
+			<?xml version="1.0" encoding="utf-8"?>
+			<preferences>
+				<movie>Green mile</movie>
+				<sit-com>Black mirror</sit-com>
+				<food>Draniki</food>
+				<season>Summer</food>
+				<country>Australia</country>
+			</preferences>
+		>>Esc
+		>>:wq
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+		touch sklls.xml
+		vim sklls.xml
+		>>i
+			<?xml version="1.0" encoding="utf-8"?>
+			<skills>
+				<hard_skills>
+					<API>Postman</API>
+					<sniffers>Charles, Fiddler</sniffers>
+					<mobile>AS, Xcode</mobile>
+				</hard_skills>
+				<soft_skills>Communication, Problem-solving, Working under stress</soft_skills>
+			</skills>
+		>>Esc
+		>>:wq
+ 32. Сделать коммит в одну строку.
+		git add . && git commit -m "adding two files"
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+		git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+		>> https://github.com/Pavel-Pristupa/XML
+		>> Add file >> Create new file
+		>> bug_report.xml
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+		>> Commit new file
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+		>> https://github.com/Pavel-Pristupa/XML/blob/main/bug_report.xml
+		>> Edit this file # Значок карандаша справа
+		<?xml version="1.0" encoding="utf-8"?>
+		<bugreport>
+			<id>1</id>
+			<project>Homework</project>
+			<issue_type>bug</issue_type>
+			<summary>User doesn't know what to enter into the summary of the bug report</summary>
+			<priority>high</priority>
+			<description>The user doing this particular homework doesn't have and idead what to enter into the bugreport according to GitHub Home_work in point 18</description>
+			<STR>No steprs provided, contents clear from 'description'</STR>
+			<AR>321</AR>
+			<ER>123</ER>
+			<environment>Windows 10 Pro v ..., Google Chrome v ...</environment>
+			<reporter>Pavel Pristupa</reporter>
+			<assignee>to be assigned</assignee>
+		</bugreport>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+		>> Commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML
+		git fetch
+		git pull
