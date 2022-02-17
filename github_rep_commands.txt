@@ -6,7 +6,7 @@
 
 JSON
  4. Создать внешний репозиторий c названием JSON.		
-		curl -u Pavel-Pristupa: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 https://api.github.com/user/repos -d '{"name":"JSON"}'				
+		curl -u Pavel-Pristupa:YOUR_KEY https://api.github.com/user/repos -d '{"name":"JSON"}'				
  5. Клонировать репозиторий JSON на локальный компьютер.
 		git clone https://github.com/Pavel-Pristupa/JSON
  6. Внутри локального JSON создать файл “new.json”.
@@ -93,7 +93,7 @@ JSON
 
 XML
  21. Создать внешний репозиторий c названием XML.
-		curl -u Pavel-Pristupa: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 https://api.github.com/user/repos -d '{"name":"XML"}'
+		curl -u Pavel-Pristupa:YOUR_KEY https://api.github.com/user/repos -d '{"name":"XML"}'
  22. Клонировать репозиторий XML на локальный компьютер.
 		git clone https://github.com/Pavel-Pristupa/XML
  23. Внутри локального XML создать файл “new.xml”.
