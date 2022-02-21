@@ -18,12 +18,12 @@ __10. Отредактировать содержание файла “new.json
 `vim new.json`  
 ->i  
 ```
-	{
-		"name":"Pavel",
-		"age":32,
-		"pets":1,
-		"salary":1000
-	}
+{
+	"name":"Pavel",
+	"age":32,
+	"pets":1,
+	"salary":1000
+}
 ```
 ->Esc  
 -> `:wq`  
@@ -37,13 +37,13 @@ __13. В файл preferences.json добавить информацию о св
 `vim preferences.json`
 ->i
 ```
-	{
-		"movie":"Green mile",
-		"sit-com":"Black mirror",
-		"food":"Draniki",
-		"season":"Summer",
-		"country":"Australia"
-	}
+{
+	"movie":"Green mile",
+	"sit-com":"Black mirror",
+	"food":"Draniki",
+	"season":"Summer",
+	"country":"Australia"
+}
 ```
 ->Esc  
 -> `:wq` 
@@ -52,14 +52,14 @@ __14. Создать файл sklls.json добавить информацию �
 `vim sklls.json`  
 ->i  
 ```
-	{
-		"hard_skills":{
-						"API":"Postman",
-						"sniffers":["Charles", "Fiddler"],
-						"mobile": ["AS", "Xcode"]
-					},
-		"soft_skills":["Communication", "Problem-solving", "Working under stress"]
-	}
+{
+	"hard_skills":{
+					"API":"Postman",
+					"sniffers":["Charles", "Fiddler"],
+					"mobile": ["AS", "Xcode"]
+				},
+	"soft_skills":["Communication", "Problem-solving", "Working under stress"]
+}
 ```
 ->Esc  
 -> `:wq`  
