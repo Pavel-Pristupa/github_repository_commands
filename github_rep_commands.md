@@ -46,7 +46,7 @@ __13. В файл preferences.json добавить информацию о св
 }
 ```
 :arrow_right: __Esc___  
-:arrow_right: `:wq` 
+:arrow_right: `:wq`  
 __14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON__  
 `touch sklls.json`  
 `vim sklls.json`  
@@ -54,10 +54,10 @@ __14. Создать файл sklls.json добавить информацию �
 ```json
 {
 	"hard_skills":{
-					"API":"Postman",
-					"sniffers":["Charles", "Fiddler"],
-					"mobile": ["AS", "Xcode"]
-				},
+		"API":"Postman",
+		"sniffers":["Charles", "Fiddler"],
+		"mobile": ["AS", "Xcode"]
+	},
 	"soft_skills":["Communication", "Problem-solving", "Working under stress"]
 }
 ```
