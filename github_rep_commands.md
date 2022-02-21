@@ -277,7 +277,7 @@ Project - Homework
 Issue_type - bug
 Summary - User doesn't know what to enter into the summary of the bug report
 Priority - high
-Description - The user doing this particular homework doesn't have and idead what to enter into the bugreport according to GitHub Home_work in point 18
+Description - The user doing this particular homework doesn't have and idead what to enter into the bugreport according to GitHub Home_work in point 54
 STR - No steps provided, contents clear from 'description'
 AR - 321
 ER - 123
