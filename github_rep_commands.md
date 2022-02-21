@@ -1,11 +1,6 @@
- __1. Создайте текстоовый файл как в первом ДЗ по Terminal.__  
- __2. Сценарий перенесите в этот файл.__  
- __3. На против каждого действия - напишите команду в GitBash__  
-____
-  
-## JSON  
- __4. Создать внешний репозиторий c названием JSON.__  		
-		`curl -u Pavel-Pristupa:YOUR_KEY https://api.github.com/user/repos -d '{"name":"JSON"}'`  				
+ ## JSON  
+ __4. Создать внешний репозиторий c названием JSON.__  
+ `curl -u Pavel-Pristupa:YOUR_KEY https://api.github.com/user/repos -d '{"name":"JSON"}'`  				
  __5. Клонировать репозиторий JSON на локальный компьютер.__  
 		`git clone https://github.com/Pavel-Pristupa/JSON`  
  __6. Внутри локального JSON создать файл “new.json”.__  
