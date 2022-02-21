@@ -16,8 +16,8 @@ __10. Отредактировать содержание файла “new.json
 (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).  
 Всё написать в формате JSON.__  
 `vim new.json`  
-:arrow_right:i  
-```
+:arrow_right: __i__  
+```json
 {
 	"name":"Pavel",
 	"age":32,
@@ -25,7 +25,7 @@ __10. Отредактировать содержание файла “new.json
 	"salary":1000
 }
 ```
--:arrow_right:Esc  
+:arrow_right: __Esc__  
 :arrow_right: `:wq`  
 __11. Отправить изменения на внешний репозиторий.__  
 `git commit -am "new.json changes"`  
@@ -33,10 +33,10 @@ __11. Отправить изменения на внешний репозито
 __12. Создать файл preferences.json__  
 `touch preferences.json`  
 __13. В файл preferences.json добавить информацию о своих предпочтениях  
-(Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.  
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.__  
 `vim preferences.json`
-:arrow_right:i
-```
+:arrow_right: __i__
+```json
 {
 	"movie":"Green mile",
 	"sit-com":"Black mirror",
@@ -45,13 +45,13 @@ __13. В файл preferences.json добавить информацию о св
 	"country":"Australia"
 }
 ```
-:arrow_right:Esc  
+:arrow_right: __Esc___  
 :arrow_right: `:wq` 
 __14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON__  
 `touch sklls.json`  
 `vim sklls.json`  
-:arrow_right:i  
-```
+:arrow_right: __i__  
+```json
 {
 	"hard_skills":{
 					"API":"Postman",
@@ -61,13 +61,13 @@ __14. Создать файл sklls.json добавить информацию �
 	"soft_skills":["Communication", "Problem-solving", "Working under stress"]
 }
 ```
-:arrow_right:Esc  
+:arrow_right: __Esc__  
 :arrow_right: `:wq`  
 __15. Отправить сразу 2 файла на внешний репозиторий.__  
 `git add .`  
 `git commit -m "adding 2 files"`  
 `git push`  
-__16. На веб интерфейсе создать файл bug_report.json.__
+__16. На веб интерфейсе создать файл bug_report.json.__  
 :arrow_right: https://github.com/Pavel-Pristupa/JSON  
 :arrow_right: Add file :arrow_right: Create new file  
 :arrow_right: bug_report.json  
@@ -75,8 +75,8 @@ __17. Сделать Commit changes (сохранить) изменения на
 :arrow_right: Commit new file  
 __18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.__  
 :arrow_right: https://github.com/Pavel-Pristupa/JSON/blob/main/bug_report.json  
-:arrow_right: Edit this file  *Значок карандаша справа*  
-```
+:arrow_right: Edit this file  *(Значок карандаша справа)*  
+```json
 {
 	 "id":1,
 	"project":"Homework",
@@ -111,21 +111,21 @@ __24. Добавить файл под гит.__
 __25. Закоммитить файл.__  
 `git commit -m "Adding new.xml"`  
 __26. Отправить файл на внешний GitHub репозиторий.__  
-git push
+`git push`  
 __27. Отредактировать содержание файла “new.xml” - написать информацию о себе  
 (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.__  
 `vim new.xml`  
-:arrow_right:i  
-```
-	<?xml version="1.0" encoding="utf-8"?>
-	<about>
-		<name>Pavel</name>
-		<age>32</age>
-		<pet>1</pet>
-		<salary>1000</salary>
-	</about>
+:arrow_right: __i__  
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<about>
+	<name>Pavel</name>
+	<age>32</age>
+	<pet>1</pet>
+	<salary>1000</salary>
+</about>
 ```  
-:arrow_right:Esc  
+:arrow_right: __Esc__  
 :arrow_right: `:wq`  
 __28. Отправить изменения на внешний репозиторий.__  
 `git commit -am "new.xml changes"`  
@@ -135,36 +135,36 @@ __29. Создать файл preferences.xml__
 __30. В файл preferences.xml добавить информацию о своих предпочтениях  
 (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.__  
 `vim preferences.xml`  
-:arrow_right:i  
-```
-	<?xml version="1.0" encoding="utf-8"?>
-	<preferences>
-		<movie>Green mile</movie>
-		<sit-com>Black mirror</sit-com>
-		<food>Draniki</food>
-		<season>Summer</season>
-		<country>Australia</country>
-	</preferences>
+:arrow_right: __i__  
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<preferences>
+	<movie>Green mile</movie>
+	<sit-com>Black mirror</sit-com>
+	<food>Draniki</food>
+	<season>Summer</season>
+	<country>Australia</country>
+</preferences>
 ```  
-:arrow_right:Esc  
+:arrow_right: __Esc__  
 :arrow_right: `:wq`  
 __31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML.__  
 `touch sklls.xml`  
 `vim sklls.xml`  
-:arrow_right:i  
-```
-	<?xml version="1.0" encoding="utf-8"?>
-	<skills>
-		<hard_skills>
-			<API>Postman</API>
-			<sniffers>Charles, Fiddler</sniffers>
-			<mobile>AS, Xcode</mobile>
-		</hard_skills>
-		<soft_skills>Communication, Problem-solving, Working under stress</soft_skills>
-	</skills>
+:arrow_right: __i__  
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+	<hard_skills>
+		<API>Postman</API>
+		<sniffers>Charles, Fiddler</sniffers>
+		<mobile>AS, Xcode</mobile>
+	</hard_skills>
+	<soft_skills>Communication, Problem-solving, Working under stress</soft_skills>
+</skills>
 ```  
-:arrow_right:Esc  
-:arrow_right: `:wq`
+:arrow_right: __Esc__  
+:arrow_right: `:wq`  
 __32. Сделать коммит в одну строку.__  
 `git add . && git commit -m "adding two files"`  
 __33. Отправить сразу 2 файла на внешний репозиторий.__  
@@ -177,8 +177,8 @@ __35. Сделать Commit changes (сохранить) изменения на
 :arrow_right: Commit new file  
 __36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.__  
 :arrow_right: https://github.com/Pavel-Pristupa/XML/blob/main/bug_report.xml  
-:arrow_right: Edit this file *Значок карандаша справа*  
-```
+:arrow_right: Edit this file *(Значок карандаша справа)*  
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <bugreport>
 	<id>1</id>
@@ -218,14 +218,14 @@ __44. Отправить файл на внешний GitHub репозитор�
 __45. Отредактировать содержание файла “new.txt” - написать информацию о себе  
 (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.__  
 `vim new.txt`  
-:arrow_right:i
+:arrow_right: __i__
 ```
-	Name - Pavel
-	Age - 32
-	Pets - 1
-	Sallary - 1000
+Name - Pavel
+Age - 32
+Pets - 1
+Sallary - 1000
 ```  
-:arrow_right:Esc  
+:arrow_right: __Esc__  
 :arrow_right: `:wq`  
 __46. Отправить изменения на внешний репозиторий.__  
 `git add .`  
@@ -236,27 +236,27 @@ __47. Создать файл preferences.txt__
 __48. В файл preferences.txt” добавить информацию о своих предпочтениях  
 (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.__  
 `vim preferences.txt`  
-:arrow_right:i  
+:arrow_right: __i__  
 ```
-	Movie - Green mile
-	Sit-com - Black mirror
-	Food - Draniki
-	Season - Summer
-	Country - Australia
+Movie - Green mile
+Sit-com - Black mirror
+Food - Draniki
+Season - Summer
+Country - Australia
 ```  
-:arrow_right:Esc  
+:arrow_right: __Esc__  
 :arrow_right: `:wq`  
-__49. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT__  
+__49. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT.__  
 `vim sklls.txt`  
-:arrow_right:i  
+:arrow_right: __i__  
 ```
-	Hard_skills:
-		API: Postman;
-		sniffers: Charles, Fiddler;
-		mobile: AS, Xcode;				
-	Soft_skills: Communication, Problem-solving, Working under stress.
+Hard_skills:
+	API: Postman;
+	sniffers: Charles, Fiddler;
+	mobile: AS, Xcode;				
+Soft_skills: Communication, Problem-solving, Working under stress.
 ```  
-:arrow_right:Esc  
+:arrow_right: __Esc__  
 :arrow_right: `:wq`  
 __50. Сделать коммит в одну строку.__  
 `git add . && git commit -m "Adding preferences and skills"`  
