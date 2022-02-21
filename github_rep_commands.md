@@ -34,8 +34,8 @@ __12. Создать файл preferences.json__
 `touch preferences.json`  
 __13. В файл preferences.json добавить информацию о своих предпочтениях  
 (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.__  
-`vim preferences.json`
-:arrow_right: __i__
+`vim preferences.json`  
+:arrow_right: __i__  
 ```json
 {
 	"movie":"Green mile",
